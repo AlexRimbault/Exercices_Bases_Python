@@ -2,55 +2,77 @@
 
 #1
 
-développeur = "Python"
-print(développeur)
+developpeur = "Python"
+print(developpeur)
 
 #2
-#TODO
+
 age = 25
-prénom = "Alexandre"
-phrase = "Je suis {prénom} et j'ai {age} ans"
-print(phrase + prénom + age)
-#TODO
+prenom = "Alexandre"
+phrase = "Je suis " + prenom + " et j'ai " + str(age) + " ans"
+print(phrase)
+
 
 #3
-#TODO
+age, prenom = 25, "Alexandre"
+phrase = "Je suis " + prenom + " et j'ai " + str(age) + " ans"
+print(phrase)
 
 #4
 nombre = 3
 print(nombre*4)
 
 #5
-nombre = 1
-addition = nombre + 1
-print(addition)
 
-#nombre = 1
-print(nombre+1)
+#nombre1 = 1
+nombre1 = 1
+
+#nombre2 = 2
+nombre2 = nombre1 + 1
+print(nombre2)
+
+#nombre3 = 3
+nombre2 += 1
+print(nombre2)
 
 #6
-nombre = 1
-soustraction = nombre - 1
-print(soustraction)
 
-#nombre = 1
-print(1-1)
+#nombre1 = 1
+nombre1 = 1
+
+#nombre2 = 0 
+nombre2 = nombre1 - 1
+print(nombre2)
+
+#nombre3 = -1
+nombre2 -= 1
+print(nombre2)
 
 #7
-nombre = 1
-multiplication = nombre * 2
-print(multiplication)
 
-nombre = 1
-print(nombre*2)
+#nombre1 = 1
+nombre1 = 1
+
+#nombre2 = 1
+nombre2 = nombre1 * 1
+print(nombre2)
+
+#nombre3 = 1
+nombre2 *= 1
+print(nombre2)
 
 #8
-nombre = 1
-division = nombre / 2
-print(division)
 
-#nombre = 1
-print(nombre/2)
+#nombre1 = 1
+nombre1 = 1
+
+#nombre2 = 1 
+nombre2 = nombre1 / 1
+print(nombre2)
+
+#nombre3 = 1
+nombre2 /= 1
+print(nombre2)
 
 #9
 a = 5
