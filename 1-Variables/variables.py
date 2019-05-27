@@ -14,11 +14,13 @@ print(phrase)
 
 
 #3
+
 age, prenom = 25, "Alexandre"
 phrase = "Je suis " + prenom + " et j'ai " + str(age) + " ans"
 print(phrase)
 
 #4
+
 nombre = 3
 print(nombre*4)
 
@@ -75,6 +77,7 @@ nombre2 /= 1
 print(nombre2)
 
 #9
+
 a = 5
 b = 7
 a, b = b, a
@@ -110,6 +113,7 @@ print(a%2)
 print(a**2)
 
 #12
+
 prix_ht = input("Veuillez entrer un prix hors taxes: ")
 prix_ht = int(prix_ht)
 nb_articles = input("Veuillez entrer un nombre d'articles: ")
@@ -179,8 +183,6 @@ print(x)
 
 #19
 
-#19
-
 x = {"key":"valeur","key2":"valeur2"}
 print(x)
 print(x["key"])
@@ -196,3 +198,4 @@ print(y)
 
 #LISTES, DICTIONNAIRES, TUPLES
 
+#20
