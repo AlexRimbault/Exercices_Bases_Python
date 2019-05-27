@@ -2,8 +2,8 @@
 
 #1
 
-developpeur = "Python"
-print(developpeur)
+nombre = 7
+print(nombre)
 
 #2
 
@@ -86,8 +86,7 @@ print (a,b)
 #10
 
 #1
-a = 7
-b = 7
+a, b = 7
 print(a,b)
 
 #2
@@ -162,7 +161,7 @@ print(x)
 
 x = ["ok", 4, 2, 78, "bonjour"]
 print(x[4])
-x[2] = "toto"
+x[1] = "toto"
 print(x)
 
 #18
