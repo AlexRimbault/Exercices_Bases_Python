@@ -81,40 +81,118 @@ a, b = b, a
 print (a,b)
 
 #10
-#TODO
+
+#1
+a = 7
+b = 7
+print(a,b)
+
+#2
+a = b = 7
+print(a,b)
+
+#3
+a = 7
+b = a
+print(a,b)
 
 #11
-#TODO
+
+a = 10
+print(a)
+
+print(a/2)
+
+print(a//2)
+
+print(a%2)
+
+print(a**2)
 
 #12
-#TODO
+prix_ht = input("Veuillez entrer un prix hors taxes: ")
+prix_ht = int(prix_ht)
+nb_articles = input("Veuillez entrer un nombre d'articles: ")
+nb_articles = int(nb_articles)
+tva = prix_ht * 0.20
+prix_ttc = prix_ht * nb_articles + tva
+
+print(prix_ttc)
+
 
 #LES LISTES
 
 #13
-#TODO
+
+ma_liste = [4,5]
+print(ma_liste)
 
 #14
-#TODO
+
+ma_liste2 = ["Hello", "World", 7 , 3]
+print(ma_liste2)
+print(ma_liste2[0])
+print(type (ma_liste2[3]))
 
 #15
-#TODO
+
+x = [1,5]
+y = [2,9]
+z = x + y
+print(z)
 
 #16
-#TODO
+
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(x[4])
+print (x[3:5])
+print(x[2:8:2])
+print(len(x))
+print(min(x))
+print(max(x))
+print(sum(x))
+del(x[3:5])
+print(x)
 
 #17
-#TODO
+
+x = ["ok", 4, 2, 78, "bonjour"]
+print(x[4])
+x[2] = "toto"
+print(x)
 
 #18
-#TODO
+
+x = [0, 1, 2, 3, 4, 5]
+print(x)
+
+x = []
+x.append(0)
+x.append(1)
+x.append(2)
+x.append(3)
+x.append(4)
+x.append(5)
+print(x)
 
 #LES DICTIONNAIRES
 
 #19
-#TODO
+
+#19
+
+x = {"key":"valeur","key2":"valeur2"}
+print(x)
+print(x["key"])
+x ["titi"] = "toto"
+x ["titi"] = "tata"
+print(x)
+x.pop("titi")
+x.pop("key")
+print(x)
+y = {}
+y = x
+print(y)
 
 #LISTES, DICTIONNAIRES, TUPLES
 
-#20
-#TODO
