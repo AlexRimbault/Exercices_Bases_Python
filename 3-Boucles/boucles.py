@@ -61,8 +61,21 @@ for i in range (1,10):
 #10
 #TODO
 
+ordi = ["apple", "asus", "dell", "samsung"]
+
+
+
 #11
-#TODO
+
+message = input("Veuillez saisir du texte: ")
+while message != "exit":
+        print(message)
+        message = "exit" 
 
 #12
-#TODO
+
+i = -5
+
+while i in range(-5,100):
+        i +=5
+        print(i)
