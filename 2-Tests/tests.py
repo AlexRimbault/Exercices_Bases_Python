@@ -1,45 +1,39 @@
 #1
 
-n1 = input("Renseignez un premier nombre: ")
-n1 = int(n1)
+number1 = int(input("Veuillez entrer un premier nombre: "))
+number2 = int(input("Veuillez entrer un deuxieme nombre: "))
 
-n2 = input("Renseignez un deuxieme nombre: ")
-n2 = int(n2)
-
-if n1 * n2 > 0:
-    print("Le produit de vos deux nombres est positif")
-elif n1 * n2 == 0:
-    print("Le produit de vos deux nombres est nul")
+if number1 * number2 > 0:
+    print("Le produit de vos deux nombres est positif !")
+elif number1 * number2 < 0:
+    print("Le produit de vos deux nombres est négatif !")
 else:
-    print("Le produit de vos deux nombres est négatif")
+    print("Le produit de vos deux nombres est nul !")
 
 #2
 
-age = input("Veuillez renseigner votre âge: ")
-age = int(age)
+age = int(input("Veuillez entrer votre age: "))
 
 if age >=18:
-    print("Vous êtes majeur")
+    print("Vous êtes majeur !")
 else:
-    print("Vous n'êtes pas majeur")
+    print("Vous êtes mineur !")
 
 #3
 
-nombre = input("Veuillez renseigner un nombre: ")
-nombre = int(nombre)
+number = int(input("Veuillez entrer un nombre: "))
 
-
-if nombre > 5 and nombre < 10:
-    print("Vrai")
+if number in range(6,9):
+    print("Votre nombre est dans l'intervalle !")
 else:
-    print("Faux")
+    print("Votre nombre n'est pas dans l'intervalle !")
 
 #4
 
-nombre = input("Veuillez renseigner un nombre: ")
-nombre = int(nombre)
+number = int(input("Veuillez entrer un nombre: "))
 
-if nombre < 5 or nombre > 10:
-    print("Faux")
+if 5 < number < 10:
+    print("Votre nombre est dans l'intervalle !")
 else:
-    print("Vrai")
+    print("Votre nombre n'est pas dans l'intervalle !")
+

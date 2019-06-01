@@ -195,7 +195,3 @@ y = {}
 y = x
 print(y)
 
-#LISTES, DICTIONNAIRES, TUPLES
-
-#20
-#TODO

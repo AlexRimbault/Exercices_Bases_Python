@@ -20,14 +20,11 @@ for lettre in x:
 
 #4
 #TODO
-x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
 
 #5
 #TODO
-
-x = [1,10,20,30,40,50]
 
 #6
 
@@ -54,7 +51,7 @@ for nombre in range(1,10):
 for i in range (1,10):
     if i == 3:
         continue
-        print(i)
+print(i)
 
 #boucle while
 
