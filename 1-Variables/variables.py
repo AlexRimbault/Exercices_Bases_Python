@@ -123,7 +123,7 @@ prix_ttc = prix_ht * nb_articles + tva
 print(prix_ttc)
 
 
-#LES LISTES
+#LISTES
 
 #13
 
@@ -178,7 +178,7 @@ x.append(4)
 x.append(5)
 print(x)
 
-#LES DICTIONNAIRES
+#DICTIONNAIRES
 
 #19
 
