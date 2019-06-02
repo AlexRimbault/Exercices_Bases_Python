@@ -135,7 +135,7 @@ print(ma_liste)
 ma_liste2 = ["Hello", "World", 7 , 3]
 print(ma_liste2)
 print(ma_liste2[0])
-print(type (ma_liste2[3]))
+print(type (ma_liste2[2]))
 
 #15
 
@@ -147,7 +147,7 @@ print(z)
 #16
 
 x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(x[4])
+print(x[3])
 print (x[3:5])
 print(x[2:8:2])
 print(len(x))
@@ -160,7 +160,7 @@ print(x)
 #17
 
 x = ["ok", 4, 2, 78, "bonjour"]
-print(x[4])
+print(x[3])
 x[1] = "toto"
 print(x)
 
@@ -169,13 +169,7 @@ print(x)
 x = [0, 1, 2, 3, 4, 5]
 print(x)
 
-x = []
-x.append(0)
-x.append(1)
-x.append(2)
-x.append(3)
-x.append(4)
-x.append(5)
+x = list(range(0,6))
 print(x)
 
 #DICTIONNAIRES
