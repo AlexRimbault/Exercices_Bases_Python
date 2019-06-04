@@ -20,9 +20,11 @@ for letter in x:
     print(letter)
 
 #4
-#TODO
+x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-
+for element in x:
+        for element in element:
+                print(element)
 
 #5
 #TODO
@@ -68,9 +70,13 @@ i = 0
 
 
 #10
-#TODO
 
+ordi = ["apple", "asus", "dell", "samsung"]
+i = 0
 
+while i < len(ordi):
+    print(ordi[i])
+    i += 1
 
 #11
 
