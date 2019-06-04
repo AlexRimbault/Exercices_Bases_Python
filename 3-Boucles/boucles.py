@@ -2,21 +2,22 @@
 
 #1
 
-nombres = 0,1,2,3,4,5
-for nombre in nombres:
-    print(nombre)
+for x in range(0,6):
+    print(x)
 
 #2
 
-liste = ["I", "am", "legend"]
+liste = ["Je", "suis", "développeur"]
+
 for mot in liste:
-    print(mot, len(mot))
+    print(len(mot), mot)
 
 #3
 
 x = "anticonstitutionnellement"
-for lettre in x:
-    print(lettre)
+
+for letter in x:
+    print(letter)
 
 #4
 #TODO
@@ -40,11 +41,21 @@ for i in range(1,10):
 
 #8
 
-nombre = 1,2,3,4,5,6,7,8,9,10
-for nombre in range(1,10):
-    if nombre > 3:
+n1 = 1
+n2 = 2
+n3 = 3
+n4 = 4
+n5 = 5
+n6 = 6
+n7 = 7
+n8 = 8
+n9 = 9
+n10 = 10
+
+for number in range(n1,n10):
+    if number > n3:
         break
-        print(nombre)
+    print(number)
 
 #9
 
@@ -53,12 +64,11 @@ for i in range (1,10):
         continue
 print(i)
 
-#boucle while
+i = 0
+
 
 #10
 #TODO
-
-ordi = ["apple", "asus", "dell", "samsung"]
 
 
 
