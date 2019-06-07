@@ -22,12 +22,24 @@ for letter in x:
 #4
 x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-for element in x:
-        for element in element:
+for elements in x:
+        for element in elements:
                 print(element)
 
 #5
-#TODO
+
+x = [1,10,20,30,40,50]
+
+
+a = b = 0
+# calcul manière 1
+a = sum(x)
+print(a)
+
+# calcul manière 2
+for i in x:
+    b += i
+print(b)
 
 #6
 
@@ -43,19 +55,12 @@ for i in range(1,10):
 
 #8
 
-n1 = 1
-n2 = 2
-n3 = 3
-n4 = 4
-n5 = 5
-n6 = 6
-n7 = 7
-n8 = 8
-n9 = 9
-n10 = 10
+n_min = 1
+n_max = 10
+n_break = 3
 
-for number in range(n1,n10):
-    if number > n3:
+for number in range(n_min,n_max):
+    if number > n_break:
         break
     print(number)
 
